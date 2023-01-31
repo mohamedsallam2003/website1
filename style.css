@@ -1,0 +1,274 @@
+
+body{
+    background-image: url(./clipboard-landing-page-master-mod/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    
+}
+.logo{
+    padding-top: 100px;
+     display: flex;
+    justify-content: center;
+    
+
+    
+
+}
+
+
+.head {
+
+   margin: auto;
+   width: 550px;
+   text-align: center;
+   padding-top: 20px;
+}
+@media(max-width:375px){
+ .head{
+    text-align: center;
+    width: fit-content;
+ }
+}
+p{
+    line-height: 28px    ;
+}
+
+
+.b{
+    text-align: center;
+    margin-top: 45px;
+}
+
+.b1,.b2{
+    padding: 16px 28px;
+    border-radius: 35px;
+    font-size: 18px;
+    color: white;
+    margin-left: 10px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;  
+    
+}
+
+.b1{
+    background-color: hsl(171, 66%, 44%);
+    border-color: hsl(171, 66%, 44%) ;
+   
+}
+@media(max-width:375px){
+    .b1{
+        margin-bottom: 20px;
+    }
+}
+.b2{
+    background-color:hsl(233, 100%, 69%);
+    border-color:hsl(233, 100%, 69%) ;
+}
+
+.text1,.text3,.text4{
+    text-align: center;
+    margin: 150px  auto;
+    width: 620px;
+
+   
+}
+@media(max-width:375px){
+    .text1,.text3,.text4{
+       text-align: center;
+       width: fit-content;
+    }
+   }
+
+.text2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text2 .child{
+
+    width: 294px;
+    margin-left: 150px;
+
+}
+@media(max-width:375px){
+    .text2 .child{
+       margin: auto;
+       text-align: center;
+    }
+   }
+.text2 .img{
+     margin-left: -39px;
+
+}
+
+@media(max-width:375px){
+    .text2 .img img{
+        width:100%;
+        
+    }
+    .text2 .img{
+     margin: auto;
+     padding: 10px;
+    }
+   }
+
+.h{
+    margin-top: 65px;
+}
+
+.img-device{
+    display: flex;
+    justify-content: center;
+}
+@media(max-width:375px){
+    .img-device img{
+       width: 100%;
+    }
+   }
+
+
+.text5 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+ 
+}
+
+.text5 div{
+    text-align: center;
+    width: 350px;
+}
+@media(max-width:375px){
+    .text5 div{
+       margin-bottom: 50px;
+    }
+}
+.text5 img{
+    margin-bottom: 20px;
+}
+
+.text6{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    flex-wrap: wrap;
+}
+@media(max-width:375px){
+    .text6{
+        margin-top: 100px;
+    }
+    .text6 div{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+}
+
+.text7{
+    margin: 200px auto 10px;
+    font-size: 18px;
+    width: 700px;
+    text-align: center;
+
+ 
+}
+@media(max-width:375px){
+    .text7{
+        margin-top: 100px;
+        text-align: center;
+    width: fit-content;
+    }
+
+}
+
+
+.text8{
+    display: flex;
+    margin-top: 100px;
+    background-color: rgba(0,0,0,.03);
+    padding-top: 27px;
+    padding-bottom: 12px;
+    flex-wrap: wrap;
+    
+}
+.text8 .img1 img{
+    width: 60px;
+}
+.text8 .img1{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    flex-wrap: wrap;
+}
+@media(max-width:375px){
+    .text8 .img1{
+        margin: auto;
+    }
+}
+
+.img2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.inf{
+    
+    display: flex;
+      margin-right: 200px;  
+     margin-left: 60px;
+    flex-wrap: wrap;
+    width: 700px;
+    justify-content: flex-start;
+
+}
+
+.inf div{
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+@media(max-width:375px){
+    .inf{
+        margin: auto;
+        margin-top: 30px;
+
+    }
+}
+@media(max-width:375px){
+    .inf div{
+         display: block;
+        width: 100%;
+        text-align: center; 
+    }
+}
+.inf div p{
+    line-height: normal;
+}
+.text8 .img2 img{
+    padding: 20px;
+}
+@media(max-width:375px){
+    .text8 .img2{
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
+p{
+    color:hsl(201, 11%, 66%) ;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;    
+
+    
+}
+h1,h2,h3,.text8 .inf p{
+   color: hsl(210, 10%, 33%);
+   font-family: 'Bai Jamjuree', sans-serif;
+   font-weight: 600; 
+
+
+   
+
+}
